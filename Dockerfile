@@ -10,4 +10,3 @@ COPY bgpd.conf /etc/quagga/bgpd.conf
 EXPOSE 2605 179
 
 CMD ["/usr/lib/quagga/bgpd"]
-CMD ["/usr/lib/quagga/zebra"]
